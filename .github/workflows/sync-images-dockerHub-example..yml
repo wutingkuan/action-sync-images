@@ -27,4 +27,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker:/crpi-rvnwjb7an0tlmtno.cn-beijing.personal.cr.aliyuncs.com/sk_12/sun-panel:1.4.0
+         skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker:/crpi-rvnwjb7an0tlmtno.cn-beijing.personal.cr.aliyuncs.com/sk_12/
