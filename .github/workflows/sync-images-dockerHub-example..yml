@@ -27,5 +27,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-hangzhou.aliyuncs.com/weiyigeek/sun-panel:1.4.0
-      # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
+         skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker:/crpi-rvnwjb7an0tlmtno.cn-beijing.personal.cr.aliyuncs.com/sk_12/sun-panel:1.4.0
